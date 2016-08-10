@@ -1,0 +1,21 @@
+    *{padding:0px;margin:0px;}   
+	body{margin:5px auto;background:url("img/bg2.jpg") no-repeat;}
+	#nav{width:900px;height:300px;margin:0px auto;background:url("img/nav.png") no-repeat;border-radius:10px;}
+	 #nav ul{list-style:none;font-family:幼圆;width:800px;height:50px;margin-left:100px;}
+     #nav ul li{float:left;margin:260px auto;font-size:25px;width:150px;height:40px;display:block;text-align:center;line-height:40px;opacity: 0.7;}
+	 #nav a{text-decoration:none;}
+	 #nav span{float:right;margin:230px 20px;font-size:20px;font-family:times new roman;}
+    #borrow{text-align:center;float:left;margin:10px 470px;position:fixed;width:500px;height:80px;display:block;font-size:20px;}
+    select,input{height:40px;}
+    #borrow span{margin-top:20px;}
+    #list{background-color:white;width:560px;height:158px;margin:130px 450px; overflow:hidden;border-radius:20px;position:absolute;}
+	#list ul{cursor:pointer/*鼠标样子*/;animation:mymove 10s /*时间*/ linear/*速度*/infinite/*播放次数*/;position:absolute;width:1280px;}
+	#list ul{cursor:pointer;animation:mymove 10s linear infinite;position:absolute;}
+	#list ul li{float:left;width:130px;height:158px;margin:0px 5px; list-style:none;}
+	#list ul:hover{animation-play-state:paused;}
+	#list ul li img{width:130px;height:158px;}
+	#list ul li:hover img{border:6px solid #ff0000;transform:scale(0.9);border-radius:6px;/*缩小*/}
+    @keyframes  mymove{
+    from{left:0px;}/* 从开始 */
+    to  {left:-560px;}}/*到。。。*/
+   
